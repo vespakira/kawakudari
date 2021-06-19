@@ -7,20 +7,6 @@
 
 <script type="module">
 
-onkeydown = async (e) => {
-  if (e.key == "F3") {
-    if (!globalThis.capture5sec_gif) {
-      globalThis.capture5sec_gif = (await import("https://taisukef.github.io/capture5sec.js/gif-capture5sec.js")).capture5sec;
-    }
-    capture5sec_gif();
-  } else if (e.key == "F4") {
-    if (!globalThis.capture5sec_mp4) {
-      globalThis.capture5sec_mp4 = (await import("https://taisukef.github.io/capture5sec.js/mp4-capture5sec.js")).capture5sec;
-    }
-    capture5sec_mp4(20);
-  }
-};
-
 window.title = "kawakudari";
 window.description = `
 [Hold]
