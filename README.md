@@ -4,7 +4,7 @@ https://user-images.githubusercontent.com/1715217/122657777-7e124b00-d1a1-11eb-9
 
 https://codeforkosen.github.io/kawakudari/
 
-famous [IchigoJam](https://ichigojam.net/) game 'kawakudari' in JavaScript!
+a famous [IchigoJam](https://ichigojam.net/) game 'kawakudari' in JavaScript!
 
 ## lib
 
